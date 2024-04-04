@@ -188,10 +188,6 @@
   background-image: url("../images/amore.webp");
 }
 
-.dolce {
-  background-image: url("../images/dolce.webp");
-}
-
 /*Media Queries */
 
 @media(min-width: 460px) {
@@ -321,11 +317,6 @@
 
   .item span {
     font-size: 22px;
-  }
-
-  .custom-dolce {
-    width: 80%;
-    margin-bottom: 87px;
   }
 }
 
