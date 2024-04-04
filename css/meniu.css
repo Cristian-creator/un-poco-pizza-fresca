@@ -188,6 +188,10 @@
   background-image: url("../images/amore.webp");
 }
 
+.tartufo {
+  background-image: url("../images/tartufo.png");
+}
+
 /*Media Queries */
 
 @media(min-width: 460px) {
