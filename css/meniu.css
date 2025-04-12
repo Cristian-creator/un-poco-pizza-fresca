@@ -136,6 +136,10 @@
   background-image: url("../images/bufala.webp");
 }
 
+.un-poco-di-napoli {
+  background-image: url("../images/un-poco-di-napoli.png");
+}
+
 .capriciosa {
   background-image: url("../images/capriciosa.webp");
 }
@@ -194,6 +198,10 @@
 
 .tartufo {
   background-image: url("../images/tartufo.png");
+}
+
+.un-poco-di-sole {
+  background-image: url("../images/un-poco-di-sole.png");
 }
 
 /*Media Queries */
