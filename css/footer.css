@@ -66,11 +66,6 @@ p .italic {
     margin-bottom: 16px;
 }
 
-.exact-location-div {
-    display: flex;
-    align-items: center;
- }
-
  a {
     font-size: 18px;
     line-height: 1.8;

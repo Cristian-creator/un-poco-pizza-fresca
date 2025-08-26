@@ -5,14 +5,14 @@
   <url>
     <loc>https://www.unpoco.ro/</loc>
     <priority>1.0</priority>
-    <changefreq>daily</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
 
   <!-- Pagina meniu -->
   <url>
     <loc>https://www.unpoco.ro/menu.html</loc>
     <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
 
 </urlset>
