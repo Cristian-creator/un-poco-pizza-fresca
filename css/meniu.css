@@ -27,7 +27,7 @@
   }
   
   .menu-intro-text h1 {
-    font-size: 65px;
+    font-size: 48px;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
@@ -89,10 +89,10 @@
   border-bottom: 2px solid #4d443d;
 }
 
-.pizza-titlu h1 {
+.pizza-titlu h2 {
   padding-bottom: 20px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .detalii {
@@ -103,12 +103,17 @@
   margin-bottom: 50px;
 }
 
-.item p.item-title {
+.item h2.item-title {
   font-size: 22px;
   margin-bottom: 20px;
 }
 
 .item p {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.item h2 {
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;;
 }
@@ -212,10 +217,10 @@
   }
 
   .pizza-titlu h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
 
-  .item p.item-title {
+  .item h2 {
     font-size: 24px;
   }
 
@@ -240,18 +245,22 @@
   }
 
   .menu-intro-text h1  {
-    font-size: 85px;
+    font-size: 48px;
     width: 500px;
   }
 
   .menu-intro-text p {
-    font-size: 22px;
+    font-size: 26px;
     margin: unset;
-    width: 500px;
+    width: 448px;
   }
 
   .pizza-titlu h1 {
     font-size: 50px;
+  }
+
+  .item h2.item-title {
+    font-size: 30px;
   }
 
 }
@@ -277,7 +286,8 @@
   }
 
   .item p,
-  .item span {
+  .item span,
+  .item h2 {
     line-height: 1.2;
   }
 }
@@ -323,7 +333,7 @@
     width: 100%;
   }
 
-  .item p.item-title {
+  .item h2 {
     font-size: 30px;
   }
 

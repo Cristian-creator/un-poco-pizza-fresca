@@ -24,10 +24,10 @@ footer {
     padding: 0px 15px 72px;
 }
 
-.quick-links h3,
-.support h3,
-.contact-info h3,
-.subscription h3 {
+.quick-links h4,
+.support h4,
+.contact-info h4,
+.subscription h4 {
     margin: 0px 0px 20px;
     font-size: 18px;
     font-weight: 500;
@@ -40,6 +40,10 @@ footer {
     line-height: 1.8;
     font-weight: 200;
     color: var(--primary-color);
+}
+
+.quick-links li a {
+    text-decoration: underline;
 }
 
 li {
@@ -60,6 +64,18 @@ p .italic {
 
 .contact-info p {
     margin-bottom: 16px;
+}
+
+.exact-location-div {
+    display: flex;
+    align-items: center;
+ }
+
+ a {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 200;
+    color: #ffff;
 }
 
 .subscription p {
@@ -111,6 +127,14 @@ p .italic {
     margin-bottom: 16px;
     padding: 0px 15px;
     display: block;
+}
+
+.footer-brands img {
+    height: 44px;
+}
+.footer-brands img:hover {
+    height: 44px;
+    color: orange;
 }
 
 .footer-brands a {

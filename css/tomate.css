@@ -33,9 +33,22 @@
 .tomate-text h2 {
     font-family: 'Bebas Neue', sans-serif;
     color: var(--text);
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: normal;
     font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.tomate-text h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--text);
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.tomate-text h3:nth-of-type(2) {
     margin-bottom: 50px;
 }
 
@@ -49,7 +62,7 @@
 @media(min-width: 450px) {
     .tomate-text{
        margin: 0 auto;
-       width: 50%;
+       width: 60%;
     }
 
     .tomato-container {
@@ -107,8 +120,8 @@
     }
 
     .tomate-text h2 {
-        font-size: 22px;
-        line-height: 27px;
+        font-size: 36px;
+        line-height: normal;
     }
 }
 
@@ -130,6 +143,10 @@
     }
 
     .tomate-text h2 {
+        font-size: 45px;
+    }
+
+    .tomate-text h3 {
         font-size: 30px;
     }
 }

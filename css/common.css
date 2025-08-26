@@ -139,22 +139,26 @@ a {
 .intro-text {
     position: absolute;
     top: 40%;
+    left: 0;
+    right: 0;
     text-align: center;
     color: var(--primary-color);
     margin: 0 auto;
-    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .intro-text h1 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
+    font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .intro-text h4 {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .intro-btn {
@@ -230,7 +234,8 @@ a {
 
 @media(min-width: 760px) {
     .intro-text h1 {
-        font-size: 60px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .intro-text h4 {
@@ -284,7 +289,8 @@ a {
     }
 
     .intro-text h1 {
-        font-size: 90px;
+        font-size: 48px;
+        max-width: 1024px;
     }
 
     .intro-text h4 {
